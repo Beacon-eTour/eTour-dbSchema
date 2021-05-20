@@ -1,0 +1,512 @@
+{
+  "__collections__": {
+    "localizations": {
+      "en": {
+        "language_name": "English",
+        "settings_apply": "Apply",
+        "settings_about_app": "About app",
+        "app_name": "iTour",
+        "language_code": "en",
+        "settings_language_selection": "Change language",
+        "settings_give_feedback": "Give feedback",
+        "generic_continue": "Continue",
+        "settings_title": "Settings",
+        "generic_ok": "Ok",
+        "tour_not_completed_description": "You haven't seen all the interesting places yet.",
+        "on_boarding_name": "What should we call you?",
+        "on_boarding_welcome": "Welcome!",
+        "tour_new_info_page_available": "New page available! Move from here.",
+        "feedbackUrl": "https://www.testi.fi/feedback",
+        "settings_open_source_libraries": "Open source libraries",
+        "generic_offline_error": "Your device seems to be offline.",
+        "settings_notifications": "Notifications",
+        "exit_confirmation_android": "Press back again to quit",
+        "generic_error_description": "An unknown error has occured, please try again later.",
+        "on_boarding_hi": "Hi%/XX, which tour would you like to participate in?",
+        "tour_not_completed_title": "Tour not completed",
+        "settings_reset_tour": "Reset tour",
+        "settings_tour_selection": "Select tour",
+        "on_boarding_take_me_to_tour": "Let's go to the tour!",
+        "tour_title": "Tour",
+        "btn_map": "Map",
+        "__collections__": {}
+      },
+      "fi": {
+        "language_name": "suomi",
+        "settings_about_app": "Tietoja sovelluksesta",
+        "generic_error_description": "Palvelussa tapahtui odottamaton virhe, yritä myöhemmin uudelleen",
+        "settings_give_feedback": "Anna palautetta",
+        "settings_language_selection": "Vaihda kieltä",
+        "generic_continue": "Jatka",
+        "on_boarding_take_me_to_tour": "Lähdetään kierrokselle!",
+        "app_name": "iTour",
+        "on_boarding_hi": "Hei%/XX, mille kierrokselle haluaisit osallistua?",
+        "settings_notifications": "Ilmoitukset",
+        "language_code": "fi",
+        "btn_map": "Kartta",
+        "generic_offline_error": "Laitteessasi ei ole internet-yhteyttä.",
+        "settings_open_source_libraries": "Avoimen lähdekoodin kirjastot",
+        "on_boarding_welcome": "Tervetuloa!",
+        "settings_reset_tour": "Nollaa kierros",
+        "tour_title": "Kierros",
+        "tour_new_info_page_available": "Uusi sivu saatavilla! Siirry tästä.",
+        "settings_title": "Asetukset",
+        "tour_not_completed_description": "Et ole vielä nähnyt kaikkia mielenkiintoisia paikkoja.",
+        "generic_ok": "Ok",
+        "settings_apply": "Aseta",
+        "feedbackUrl": "https://www.eTour-LoremIpsum.fi/palaute",
+        "exit_confirmation_android": "Paina Takaisin-nappia uudestaan poistuaksesi sovelluksesta",
+        "settings_tour_selection": "Valitse kierros",
+        "tour_not_completed_title": "Kierros ei ole vielä ohi",
+        "on_boarding_name": "Millä nimellä haluat sinua kutsuttavan?",
+        "__collections__": {}
+      }
+    },
+    "tours": {
+      "contractor": {
+        "feedbackUrl": "https://www.eTour-LoremIpsum.fi/palaute",
+        "name": {
+          "en": "Contractor",
+          "fi": "Rakennuttaja"
+        },
+        "groupId": "3",
+        "beaconInfos": [
+          {
+            "notification": {
+              "en": "Aula",
+              "fi": "Lobby"
+            },
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "id": 1,
+            "imageDescription": {
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus."
+            },
+            "mediaUrl": {
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg",
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum"
+            },
+            "isExit": false,
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "videoDescription": {
+              "fi": "Video aulasta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "en": "Video from lobby. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "location": {
+              "en": "Lobby",
+              "fi": "Aula"
+            },
+            "conditions": [],
+            "intro": {
+              "en": "Welcome!",
+              "fi": "Tervetuloa!"
+            },
+            "beaconId": "3092"
+          },
+          {
+            "id": 2,
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "notification": {
+              "en": "Exit",
+              "fi": "Lähdössä"
+            },
+            "videoDescription": {
+              "en": "Video, goodbye! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "fi": "Video, heippa! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "isExit": true,
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "intro": {
+              "en": "Thank you for visiting us!",
+              "fi": "Kiitos käynnistä!"
+            },
+            "conditions": [
+              1
+            ],
+            "beaconId": "3092",
+            "mediaUrl": {
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg",
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum"
+            },
+            "location": {
+              "en": "Lobby and exit",
+              "fi": "Aula ja lähtö"
+            },
+            "imageDescription": {
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus.",
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus"
+            }
+          },
+          {
+            "location": {
+              "en": "stairs",
+              "fi": "portaat"
+            },
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "notification": {
+              "fi": "portaat",
+              "en": "stairs"
+            },
+            "mediaUrl": {
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum",
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg"
+            },
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "beaconId": "789",
+            "imageDescription": {
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus"
+            },
+            "id": 3,
+            "isExit": false,
+            "videoDescription": {
+              "en": "Video, stairs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "fi": "Video, portaat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "conditions": [
+              1
+            ],
+            "intro": {
+              "fi": "Tervetuloa portaille!",
+              "en": "Welcome to stairs!"
+            }
+          },
+          {
+            "location": {
+              "en": "Music class",
+              "fi": "Musiikkiluokka"
+            },
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "notification": {
+              "en": "Music class",
+              "fi": "Musiikkiluokka"
+            },
+            "isExit": false,
+            "videoDescription": {
+              "fi": "Video musiikkiluokasta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "en": "Video from music class. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "intro": {
+              "fi": "Kuuletko musiikin!",
+              "en": "Can you hear the music!"
+            },
+            "mediaUrl": {
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum",
+              "imageUrl": "https://storage.googleapis.com/loremipsum.jpg"
+            },
+            "beaconId": "1005",
+            "imageDescription": {
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus"
+            },
+            "id": 4,
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "conditions": [
+              1,
+              3
+            ]
+          }
+        ],
+        "mapUrl": "https://somephotostock.com/LoremIpsum.jpg",
+        "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+        "__collections__": {}
+      },
+      "parent": {
+        "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+        "groupId": "1",
+        "feedbackUrl": "https://www.eTour-LoremIpsum.fi/palaute",
+        "mapUrl": "https://somephotostock.com/LoremIpsum.jpg",
+        "name": {
+          "fi": "Vanhempi",
+          "en": "Parent"
+        },
+        "beaconInfos": [
+          {
+            "id": 1,
+            "intro": {
+              "en": "Welcome!",
+              "fi": "Tervetuloa!"
+            },
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "conditions": [],
+            "isExit": false,
+            "imageDescription": {
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus."
+            },
+            "notification": {
+              "en": "Aula",
+              "fi": "Lobby"
+            },
+            "videoDescription": {
+              "en": "Video from lobby. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "fi": "Video aulasta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "location": {
+              "fi": "Aula",
+              "en": "Lobby"
+            },
+            "beaconId": "3092",
+            "mediaUrl": {
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum",
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg"
+            },
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum"
+          },
+          {
+            "location": {
+              "en": "Lobby and exit",
+              "fi": "Aula ja lähtö"
+            },
+            "conditions": [
+              1
+            ],
+            "notification": {
+              "fi": "Lähdössä",
+              "en": "Exit"
+            },
+            "mediaUrl": {
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum",
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg"
+            },
+            "beaconId": "3092",
+            "videoDescription": {
+              "en": "Video, goodbye! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "fi": "Video, heippa! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "isExit": true,
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "imageDescription": {
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus."
+            },
+            "intro": {
+              "fi": "Kiitos käynnistä!",
+              "en": "Thank you for visiting us!"
+            },
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "id": 2
+          },
+          {
+            "location": {
+              "fi": "portaat",
+              "en": "stairs"
+            },
+            "conditions": [
+              1
+            ],
+            "isExit": false,
+            "id": 3,
+            "mediaUrl": {
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg",
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum"
+            },
+            "intro": {
+              "fi": "Tervetuloa portaille!",
+              "en": "Welcome to stairs!"
+            },
+            "imageDescription": {
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus"
+            },
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "notification": {
+              "en": "Stairs",
+              "fi": "Portaat"
+            },
+            "beaconId": "789",
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "videoDescription": {
+              "fi": "Video, portaat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "en": "Video, stairs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            }
+          },
+          {
+            "isExit": false,
+            "id": 4,
+            "intro": {
+              "fi": "Kuuletko musiikin!",
+              "en": "Can you hear the music!"
+            },
+            "location": {
+              "fi": "Musiikkiluokka",
+              "en": "Music class"
+            },
+            "imageDescription": {
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus"
+            },
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "videoDescription": {
+              "en": "Video from music class. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "fi": "Video musiikkiluokasta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "mediaUrl": {
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum",
+              "imageUrl": "https://storage.googleapis.com/loremipsum.jpg"
+            },
+            "conditions": [
+              1,
+              3
+            ],
+            "beaconId": "1005",
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "notification": {
+              "fi": "Musiikkiluokka",
+              "en": "Music class"
+            }
+          }
+        ],
+        "__collections__": {}
+      },
+      "teacher": {
+        "name": {
+          "en": "Teacher",
+          "fi": "Opettaja"
+        },
+        "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+        "mapUrl": "https://somephotostock.com/LoremIpsum.jpg",
+        "feedbackUrl": "https://www.eTour-LoremIpsum.fi/palaute",
+        "groupId": "2",
+        "beaconInfos": [
+          {
+            "imageDescription": {
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus."
+            },
+            "conditions": [],
+            "isExit": false,
+            "id": 1,
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "videoDescription": {
+              "en": "Video from lobby. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "fi": "Video aulasta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "intro": {
+              "fi": "Tervetuloa!",
+              "en": "Welcome!"
+            },
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "beaconId": "3092",
+            "notification": {
+              "fi": "Lobby",
+              "en": "Aula"
+            },
+            "mediaUrl": {
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg",
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum"
+            },
+            "location": {
+              "fi": "Aula",
+              "en": "Lobby"
+            }
+          },
+          {
+            "id": 2,
+            "mediaUrl": {
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg",
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum"
+            },
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "beaconId": "3092",
+            "isExit": true,
+            "intro": {
+              "en": "Thank you for visiting us!",
+              "fi": "Kiitos käynnistä!"
+            },
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "notification": {
+              "en": "Exit",
+              "fi": "Lähdössä"
+            },
+            "conditions": [
+              1
+            ],
+            "location": {
+              "en": "Lobby and exit",
+              "fi": "Aula ja lähtö"
+            },
+            "videoDescription": {
+              "fi": "Video, heippa! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "en": "Video, goodbye! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "imageDescription": {
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus."
+            }
+          },
+          {
+            "beaconId": "789",
+            "imageDescription": {
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus"
+            },
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "videoDescription": {
+              "en": "Video, stairs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "fi": "Video, portaat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "id": 3,
+            "location": {
+              "en": "Stairs",
+              "fi": "Portaat"
+            },
+            "conditions": [
+              1
+            ],
+            "isExit": false,
+            "mediaUrl": {
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum",
+              "imageUrl": "https://storage.googleapis.com/LoremIpsum.jpg"
+            },
+            "intro": {
+              "fi": "Tervetuloa portaille!",
+              "en": "Welcome to stairs!"
+            },
+            "notification": {
+              "fi": "portaat",
+              "en": "stairs"
+            }
+          },
+          {
+            "videoDescription": {
+              "en": "Video from music class. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin.",
+              "fi": "Video musiikkiluokasta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis lectus vel sollicitudin."
+            },
+            "introVideoUrl": "https://www.youtube.com/LoremIpsum",
+            "conditions": [
+              1,
+              3
+            ],
+            "intro": {
+              "en": "Can you hear the music!",
+              "fi": "Kuuletko musiikin!"
+            },
+            "mediaUrl": {
+              "videoUrl": "https://www.youtube.com/embed/LoremIpsum",
+              "imageUrl": "https://storage.googleapis.com/loremipsum.jpg"
+            },
+            "beaconId": "1005",
+            "imageDescription": {
+              "en": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus",
+              "fi": "Donec mattis risus massa, ac tempor nisi suscipit et. Integer pharetra ac nisi eu congue. Fusce feugiat tortor at elit posuere, id scelerisque purus ultrices. In felis arcu, volutpat sit amet ligula nec, venenatis molestie quam. Duis ut pellentesque diam. Suspendisse potenti. Donec mattis nunc nec eros sodales, ut imperdiet ex tempus"
+            },
+            "notification": {
+              "en": "Music class",
+              "fi": "Musiikkiluokka"
+            },
+            "location": {
+              "en": "Music class",
+              "fi": "Musiikkiluokka"
+            },
+            "buttonRedirectUrl": "https://www.eTour-LoremIpsum.fi",
+            "id": 4,
+            "isExit": false
+          }
+        ],
+        "__collections__": {}
+      }
+    }
+  }
+}
