@@ -7,6 +7,12 @@ eTour schema template. Use this as an example and create your own schema. Templa
 eTour schema can be created in Google Firestore NoSQL database in native mode. Localizations are separated from tour, so these are separate documents in schema.
 Mobile application creates a dynamic webpage. Webpage uses a template and tour information is shown on the created webpage. Tour related pictures are stored in to a public Google Cloud Platform (GCP) bucket and URL of picture(s) is stored in the database. Also URLs of YouTube-videos are stored in the DB. If cache is expired, then data is fetched from database to the webpage. Each beaconinfo in schema contains text and media for the tour stop.
 
+## Schema template
+
+Db schema template for eTour can be found from this eTour-dbSchema repository.
+
+![Db schema description](https://github.com/Beacon-eTour/eTour-documentation/blob/main/figures/db-schema-descriptions.jpg "Schema description")
+
 ## Firestore
 To interact with the database locally, see Google’s documentation on how to setup authentication as a service account, in order to access the Firestore DB in GCP. Note that you have to configure this to develop the application.
 
