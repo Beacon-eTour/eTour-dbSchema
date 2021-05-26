@@ -62,7 +62,7 @@ Sublime Text editor is a good tool for handling JSON. JSON formatting or prettyp
 There is also an alternative for the Firebase-import-export-tool, maybe more sophisticated way for administering the DB. This allows you to look at each document in a separate json file allowing a potentially easier modification. 
 
 This tailored tool uses the same Firestore admin APIs, and can be found here along with the documentation & guide: 
-https://github.com/imatra/iTour-dbAdmin
+https://github.com/Beacon-eTour/eTour-dbAdmin
 
 ## DB and Cache keys
 Currently, when making changes to the DB, you must also reset cache keys to ensure that the applications get fresh data (OR wait for the cache keys to expire), instead of the stale data that is not yet updated in the cache.
