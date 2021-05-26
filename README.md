@@ -65,7 +65,7 @@ This tailored tool uses the same Firestore admin APIs, and can be found here alo
 https://github.com/imatra/iTour-dbAdmin
 
 ## DB and Cache keys
-Currently, when making changes to the DB, you must also reset cache keys to ensure that the applications get fresh data (OR wait for the cache keys to expire), instead of the stale data that is not yet updated in the cache. ForceUpdate – Cloud Function can be accessed from here: https://europe-west3-itour-308011.cloudfunctions.net/forceUpdate (by accessing the URL, the function runs and resets all cache keys). 
+Currently, when making changes to the DB, you must also reset cache keys to ensure that the applications get fresh data (OR wait for the cache keys to expire), instead of the stale data that is not yet updated in the cache.
 
 The TTL-value is (as now) set to 8 hours (a typical workday) and can be modified in the NextJS repository under /lib/constants.ts. The lower you set the value, more DB reads there will be done against the DB, and higher the value, the more often you will need to use the Cloud Function endpoint to reset all the keys. In future, if/when an admin UI would exist, you should update the cache keys when updating/deleting the data from DB.
 
